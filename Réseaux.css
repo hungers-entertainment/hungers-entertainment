@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(77, 6, 144);
+}
+
+.nav-bare{
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box ;
+    background-color: rgba(128, 128, 128, 0.778);
+} 
+
+.nav-bare a{
+    color: white;
+}
+.nav-bare a:hover{
+    color: rgb(0, 200, 255);
+}
+
+.nav-bare .logo{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.nav-bare .nav-link ul {
+   display: flex;
+}
+
+.nav-bare .nav-link ul li{
+    display: flex;
+    align-items: center;
+ }
+
+ .nav-bare .nav-link ul li{
+    margin: 0 25px;
+
+ }
+
+ .nav-bare .nav-link ul li.active a{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+ }
+
+ .nav-bare .nav-link ul li.active a:hover{
+    color: rgb(0, 221, 255);
+    font-weight: 600;
+ }
+
+ h1{
+    color: white;
+    text-align: center;
+ }
+
+ .ytb{
+    background-image: url(image/youtubelogo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 4em;
+    height: 200px;
+    width: 350px;
+    border-radius: 30px;
+ }
+
+ .ytb:hover{
+   background-image: url(image/youtubelogohover.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-right: 4em;
+   height: 200px;
+   width: 350px;
+   border-radius: 30px;
+}
+ .x{
+    background-image: url(image/twitter.png);
+    background-size: cover;
+    margin-right: 4em;
+    height: 200px;
+    width: 196px;
+    border-radius: 30px;
+ }
+
+ .x:hover{
+   background-image: url(image/twitterhover.png);
+   background-size: cover;
+   margin-right: 4em;
+   height: 200px;
+   width: 196px;
+   border-radius: 30px;
+}
+
+ .inst{
+   background-image: url(image/insta.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   margin-right: 4em;
+   height: 200px;
+   width: 196px;
+   border-radius: 30px; 
+ }
+
+ .inst:hover{
+   background-image: url(image/instahover.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   margin-right: 4em;
+   height: 200px;
+   width: 196px;
+   border-radius: 30px; 
+ }
+
+ .tik{
+   background-image: url(image/tikitok.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-right: 4em;
+   height: 200px;
+   width: 260px;
+   border-radius: 30px;
+ }
+
+ .tik:hover{
+   background-image: url(image/tikitokhover.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-right: 4em;
+   height: 200px;
+   width: 260px;
+   border-radius: 30px;
+ }
+
+ .disc{
+   background-image: url(image/discorde.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-right: 4em;
+   height: 200px;
+   width: 196px;
+   border-radius: 30px;
+ }
+
+ .disc:hover{
+   background-image: url(image/discordehover.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-right: 4em;
+   height: 200px;
+   width: 196px;
+   border-radius: 30px;
+ }
