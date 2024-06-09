@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(90, 15, 125);
+}
+
+form{
+    text-align: center;
+    color: aqua;
+}
+
+
+body{
+    background-image: url(image/normal.png);
+}

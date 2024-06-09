@@ -59,3 +59,12 @@ header{
     font-weight: 600;
  }
 
+ h1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 89, 218);
+    text-align: center;
+ }
+ h2{
+    background-color: rgb(20, 89, 218);
+ }
+
