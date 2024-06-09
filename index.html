@@ -3,56 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>hungers entertainment</title>
+    <link rel="stylesheet" href="formulaire.css">
+    <title>Formulaire</title>
 </head>
-<body> 
-         <nav class="nav-bare">
-            <a href="index.html" class="logo">Menu</a>
-            <div class="nav-link">
-                <ul>
-                    <li class="active"><a href="Games.html">Nos Jeux</a></li>
-                    <li><a href="Réseaux.html">Nos réseaux</a></li>
-                    <!-- <li><a href="0">Notre server minecraft</a></li> -->
-                    <li><a href="index.html">Acceuil</a></li>
-                    <li><a href="besoin.html">Besoin d'aide click ici</a></li>
-                    <li><a href="pay.html">donation</a></li>
-                </ul>
-            </div>
-         </nav>
-
-         <h2>᲼᲼᲼᲼</h2>
-         <h2>᲼᲼᲼᲼</h2>
-         <h2>᲼᲼᲼᲼</h2>
-         <h2>᲼᲼᲼᲼</h2>
-    <h1>Bonjour bienvenue sur notre site</h1>
-    <h1><span id="nomResult"></span></h1>
-    
-    
-
-    <script>
-        // Fonction pour récupérer les paramètres de l'URL
-        function getQueryParams() {
-            let params = {};
-            let queryString = window.location.search.substring(1);
-            let regex = /([^&=]+)=([^&]*)/g;
-            let m;
-            while (m = regex.exec(queryString)) {
-                params[decodeURIComponent(m[1])] = decodeURIComponent(m[2]);
-            }
-            return params;
-        }
-
-        // Récupérer les paramètres et les afficher
-        window.onload = function() {
-            let params = getQueryParams();
-            document.getElementById('nomResult').textContent = params['nom'] || 'Non spécifié';
-            document.getElementById('emailResult').textContent = params['email'] || 'Non spécifié';
-        }
-    </script>
-
-        <header></header>
-
-
+<body>
+    <h1>Noter Votre Prénom</h1>
+    <form action="index.html" method="get">
+        <label for="nom">Prènom :</label>
+        <input type="text" id="nom" name="nom" placeholder="Notez votre Prénom" required><br><br>
+        <input type="submit" value="Envoyer">
+    </form>
 </body>
 </html>
